@@ -1,0 +1,233 @@
+head img{
+	float: left;
+	max-width: 100%;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	float: right;
+	text-shadow: 2px 2px 2px #111;
+	text-align: center;
+	margin-right: 5.2083333333333%; /*50px*/
+	margin-top: 5.2083333333333%; /*50px*/
+}
+
+body{
+	margin: 0 auto;
+	max-width: 960px;
+	background-image: url("../images/bacon2.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: repeat;
+	font-family: 'Montserrat', sans-serif;
+	font: 100%/1.5;
+}
+
+nav{
+	width: 57.8125%; /*555px*/
+	float: left;
+	border-top: 4px solid #333;
+	border-left: 4px solid #333;
+	border-bottom: 4px solid #333;
+	border-right: 2px solid #333;
+	height: 5.729166666667%; /*55px*/
+	background-color: #fff;
+}
+
+#bar{
+	max-width: 100%;
+}
+#navbar li{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 83%;
+	display: inline;
+	text-align: center;
+	padding: 0.520833333333%; /*5px*/
+}
+
+aside{
+	float: left;
+	width: 39.583333333333%; /*380px*/
+	border-top: 4px solid #333;
+	border-left: 2px solid #333;
+	border-bottom: 4px solid #333;
+	border-right: 4px solid #333;
+	height: 5.729166666667%; /*55px*/
+	background-color: #fff;
+	text-align: center;
+	padding: 0.520833333333%; /*5px*/
+	font-size: 100%;
+	margin-left: 3px;
+}
+
+img{
+	border: 2px solid #333;
+	max-width: 100%;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	float: none;
+	padding-top: 1.5625%; /*15px/960*/
+	text-shadow: 2px 2px 2px #111;
+	width: 100%;
+}
+
+h3{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	width: 20.833333333333%; /*200px*/
+	text-align: center;
+	background-color: #c03;
+	border: 1px solid #333;
+	border-radius: 15px;
+}
+
+#bisforbacon{
+	float: left;
+	margin-right: 1.051666666667%; /*10px/960*/
+	max-width: 100%;
+}
+
+ol{
+	-moz-column-count: 3;
+	-moz-column-gap: 30px;
+	width: 66%;
+}	
+	
+#baconroses{
+	float: left;
+	margin-right: 1.051666666667%; /*10px/960*/
+	max-width: 100%;
+}	
+
+#content{
+	background-color: rgba(255,255,255,0.5);
+	padding: 1.5625%; /*15px/960*/
+}
+
+span{
+	border: 1px solid #333;
+	background-color: #fff;
+	padding-right: 1.5625%; /*15px/906*/
+}
+
+#gallery{
+	width: 93.75%; /*900px*/
+	border: 1px solid #333;
+	background: #fcc;
+	list-style-type: none;
+	overflow: hidden;
+	padding-right: 2.285714285714%; /*20px/875*/
+}
+
+.galpic{
+	float: left;
+	display: block;
+	margin: 0.571428571429%; /*5px/875*/
+	max-width: 100%;
+}
+
+#purchase{
+	width: 66.66%; /* 600px */
+	margin: 0 auto;
+	text-align: center;
+	background: #fcc;
+	border-radius: 15px;
+	padding: 2.083333333333%; /*20px*/
+	box-shadow: 2px 2px 2px #111;
+	list-style-type: square;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td{
+	border: 1px solid #333;
+	text-align: center;
+	padding: 1em;
+	background-color: white;
+}
+
+th{
+	text-align: center;
+}
+
+label{
+	width: 8em;
+	float: left;
+	text-align: left;
+	margin-right: 0.5em;
+	display: inline;
+}
+
+textarea{
+	overflow: scroll;
+}
+
+.button
+{
+	margin-left: 4.5em;
+	margin-top: 2em;
+} 
+
+form{
+	margin: 2em;
+}
+a:link{
+	color: #c03;
+}
+
+a:visited{
+	color: #f66;
+}
+
+a:hover{
+	color: #633;
+}
+
+a:active{
+	color: #6c9;
+}
+
+footer{
+	border: 1px solid #333;
+	background-color: #fff;
+	padding: 1.063829787234%; /*10px/940*/
+	width: 97.916666666667%; /*940px/960*/
+}
+
+/*Media Queries--------------------------------------------------------*/
+
+	/*Tablet Portrait size to standard 960 (devices and browsers*/
+	@media screen and (min-width: 768px) and (max-width:959px){
+		nav {margin-bottom: 1.051666666667%; /*10px/960*/}
+		aside {margin-bottom: 1.051666666667%; /*10px/960*/}
+		aside {float: right;}
+		h4 {display: none;}
+		#bisforbacon {float: left;}
+	}
+	
+	/*Mobile Landscape to Tablet Portrait (devices and browsers)*/
+	@media only screen and (min-width: 480px) and (max-width: 767px){
+		nav {margin-bottom: 1.051666666667%; /*10px/960*/}
+		aside {margin-bottom: 1.051666666667%; /*10px/960*/}
+		body {width: 90%;}
+		h4 {display: none;}
+	}
+	
+	/*Mobile Portrait size to landscape devices and browsers*/
+	@media only screen and (max-width: 479px){
+		nav {margin-bottom: 1.051666666667%; /*10px/960*/}
+		aside {margin-bottom: 1.051666666667%; /*10px/960*/}
+		body {width: 90%;}
+		body {background-color: #ffffff;}
+		h4 {display: none;}
+		ol {-moz-column-count: 1;}
+		img {display: none;}
+	}
+
